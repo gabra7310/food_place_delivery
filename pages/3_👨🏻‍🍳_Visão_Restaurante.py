@@ -13,7 +13,7 @@ from PIL import Image
 from streamlit_folium import folium_static
 from geopy.distance      import geodesic
 
-st.set_page_config(page_title = "Visão Restaurantes", page_icon='👨‍🍳')
+st.set_page_config(page_title = "Visão Restaurantes", page_icon='👨‍🍳', layout='wide')
 
 # Import dataset
 df_raw = pd.read_csv('train.csv')
