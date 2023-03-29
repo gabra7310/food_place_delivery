@@ -11,7 +11,7 @@ from PIL import Image
 
 from streamlit_folium import folium_static
 
-st.set_page_config(page_title = "Visão Empresa", page_icon='🏢', , layout='wide')
+st.set_page_config(page_title = "Visão Empresa", page_icon='🏢', layout='wide')
 
 # Import dataset
 df_raw = pd.read_csv('train.csv')
