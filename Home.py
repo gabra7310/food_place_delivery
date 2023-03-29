@@ -4,6 +4,7 @@ from PIL import Image
 st.set_page_config(
     page_title = "🏠 Home",
     page_icon = "🎲",
+    layout='wide'
 )
 
 image = Image.open('logo.png')
